@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    <style>
+      .modal-css{display: flex; }
+
+      /* pricing */
+
+      .pricing{display: flex; align-items: center; justify-content: center; }
+      .pricing-p{  width: auto;  height: 80px;
+        text-align: center;
+        padding: 10px;
+        font-size: 90%;
+        margin: 10px;
+        box-shadow: 0px 0px 5px  rgba(243, 234, 234, 0.719);
+        font-weight: bold;
+        
+        }
+
+
+        .card-body-accuracy{position: relative!important;}
+        .accuracy{position: absolute!important;
+          top:10%;right: 5%;}
+
+
+
+
+    </style>
+</head>
+<body>
+
+  <div class="text-center mb-5">
+    <h2>Ai Universe  Hub</h2>
+    <button class="btn-danger p-2 rounded-3">Short By Date</button>
+  </div>
+    
+
+  <!-- snipper/loader -->
+
+  <div class="text-center d-none" id="snipper">
+    <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+
+
+
+    <!-- card -->
+
+    <div id="section1" class="row row-cols-1 row-cols-md-2 g-4 container mx-auto">
+
+        <!-- 
+           <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+     -->
+        
+  
+
+      </div>
+
+
+      <!-- modal -->
+
+     <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div   class="modal fade " id="exampleModal" tabindex="" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+  <div class="modal-dialog modal-xl " >
+
+    <div class="modal-content">
+      <div id="target" class="modal-header ">
+
+
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!--  -->
+
+
+
+      <!-- show button -->
+      <div class="text-center">
+      <button onclick="loadData2()" id="showAll"  class="d-none text-center mt-5 btn btn-danger p-3 rounded shadow ml">Show All</button>
+    </div>
+
+
+
+
+
+<!-- script -->
+<script src="./index.js">
+
+</script>
+
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
